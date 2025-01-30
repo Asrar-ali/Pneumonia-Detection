@@ -33,3 +33,32 @@ This project aims to automate pneumonia detection using a **CNN model** trained 
    ```bash
    git clone https://github.com/Asrar-ali/Pneumonia-Detection-PyTorch.git
    cd Pneumonia-Detection-PyTorch
+2. **Install dependencies**:  
+   ```bash
+   pip install -r requirements.txt
+3. **Download and organize the dataset:**:
+
+   Download from Kaggle.
+   Unzip and structure folders as:
+   ```bash
+   chest_xray/
+      ├── train/
+      │   ├── NORMAL/
+      │   └── PNEUMONIA/
+      ├── test/
+      │   ├── NORMAL/
+      │   └── PNEUMONIA/
+      └── val/
+          ├── NORMAL/
+          └── PNEUMONIA/
+🖥️ Usage
+1. Train the Model
+      ```bash
+      python train.py
+  Model checkpoints saved as pneumonia_cnn.pth.
+2. Evaluate Accuracy
+      ```bash
+      python evaluate.py
+  Output:
+3. Run the Flask Web App
+   -Visit http://localhost:5000 to upload an X-ray image.
