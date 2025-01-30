@@ -31,5 +31,9 @@ This project aims to automate pneumonia detection using a **CNN model** trained 
 ## 🛠️ Installation
 1. **Clone the repository**:  
    ```bash
-   git clone https://github.com/Asrar-ali/Pneumonia-Detection.git
+      git clone https://github.com/Asrar-ali/Pneumonia-Detection.git
    cd Pneumonia-Detection
+2. **Install dependencies**:
+   '''bash
+      pip install -r requirements.txt
+
