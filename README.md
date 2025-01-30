@@ -59,8 +59,8 @@ This project leverages **PyTorch** to build a CNN model for detecting pneumonia 
 ### Steps
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/Asrar-ali/Pneumonia-Detection-PyTorch.git
-   cd Pneumonia-Detection-PyTorch
+   git clone https://github.com/Asrar-ali/Pneumonia-Detection.git
+   cd Pneumonia-Detection
    ```
 
 2. **Install dependencies**:
