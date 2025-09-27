@@ -108,7 +108,7 @@ python app.py
 ```
 - Visit `http://localhost:5000` to upload an X-ray image.
 - Example prediction:  
-  ![Prediction Demo](docs/demo.gif) *Replace with your GIF*
+  ![Prediction Demo](docs/demo.gif) 
 
 ---
 
@@ -121,7 +121,7 @@ python app.py
 | Recall          | 90.5%  |
 
 ### Confusion Matrix
-![Confusion Matrix](docs/confusion_matrix.png) *Replace with your image*
+![Confusion Matrix](docs/confusion_matrix.png) 
 
 ---
 
