@@ -1,0 +1,10 @@
+chest_xray/
+__pycache__/
+*.pyc
+*.pyo
+.git/
+.gitignore
+*.md
+.venv/
+venv/
+env/
